@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Structure Demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bootstrap Demo</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+
+        <div class="text-center">
+            <h1 class="display-4 text-primary">
+                Bootstrap JavaScript Plugins
+            </h1>
+            <p class="lead">
+                Demonstration of Bootstrap's Collapse Component
+            </p>
+        </div>
+
+        <!-- Card -->
+        <div class="card shadow mt-4">
+            <div class="card-body text-center">
+
+                <h3 class="card-title">
+                    Interactive Example
+                </h3>
+
+                <p class="card-text">
+                    Click the button below to show or hide content using
+                    Bootstrap's JavaScript plugin.
+                </p>
+
+                <button class="btn btn-success btn-lg"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#demoContent">
+                    Show / Hide Details
+                </button>
+
+                <div id="demoContent" class="collapse mt-4">
+                    <div class="alert alert-info">
+                        <h5>Success!</h5>
+                        <p>
+                            Bootstrap JavaScript is working correctly using
+                            <strong>bootstrap.bundle.min.js</strong>.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card border-primary">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS Folder</h5>
+                        <p class="card-text">
+                            Contains styles for layouts, buttons, forms, and responsive design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3 mt-md-0">
+                <div class="card border-success">
+                    <div class="card-body">
+                        <h5 class="card-title">JS Folder</h5>
+                        <p class="card-text">
+                            Contains interactive plugins such as modals, dropdowns, and carousels.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3 mt-md-0">
+                <div class="card border-warning">
+                    <div class="card-body">
+                        <h5 class="card-title">Icons Folder</h5>
+                        <p class="card-text">
+                            Provides scalable icons for navigation, forms, and buttons.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        Bootstrap 5 Exercise 2.2 © 2026
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
