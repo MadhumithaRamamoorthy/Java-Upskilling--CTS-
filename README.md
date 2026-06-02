@@ -83,8 +83,7 @@ col-12 col-md-6 col-lg-4
 ### Exercise 3.2
 
 Use:
-
-* `.container`
+`.container`
 * `.row`
 * `.col-*`
 
